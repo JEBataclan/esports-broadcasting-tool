@@ -102,7 +102,6 @@ export const Name = styled.div`
     font-size: 50px;
     font-weight: 900;
     text-transform: uppercase;
-    text-align: center;
     letter-spacing: 2px;
 
     ${({ side }) =>
@@ -149,8 +148,9 @@ export const Name = styled.div`
 `;
 
 export const NameContainer = styled.div`
-    width: 100%;
+    width: 85%;
     display: flex;
+    justify-content: center;
     align-items: center;
     overflow: hidden;
 `;
