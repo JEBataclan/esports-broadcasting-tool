@@ -99,10 +99,10 @@ export const ScoreContainer = styled.div`
 
 export const Name = styled.div`
     width: inherit;
-    margin: 20px;
     font-size: 50px;
     font-weight: 900;
     text-transform: uppercase;
+    text-align: center;
     letter-spacing: 2px;
 
     ${({ side }) =>
@@ -149,7 +149,7 @@ export const Name = styled.div`
 `;
 
 export const NameContainer = styled.div`
-    width: 85%;
+    width: 100%;
     display: flex;
     align-items: center;
     overflow: hidden;
@@ -164,12 +164,12 @@ export const Bar = styled.div`
 `;
 
 export const LeftBar = styled(Bar)`
-    left: 100px;
+    left: 0px;
 `;
 
 export const RightBar = styled(Bar)`
     direction: rtl;
-    right: 100px;
+    right: 0px;
 `;
 
 export const GameplayContainer = styled.div`
