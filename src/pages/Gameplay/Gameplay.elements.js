@@ -101,7 +101,6 @@ export const Name = styled.div`
     width: inherit;
     font-size: 50px;
     font-weight: 900;
-    text-align: center;
     text-transform: uppercase;
     letter-spacing: 2px;
 
